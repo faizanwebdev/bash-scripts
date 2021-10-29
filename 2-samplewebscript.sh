@@ -27,7 +27,7 @@ cd /tmp/webfiles
 echo
 
 # Unpacking the artifact package in tmp directory and copying, deploying in server directory location
-wget https://www.tooplate.com/zip-templates/2098_health.zip > /dev/null
+wget https://www.tooplate.com/zip-templates/2098_health.zip
 unzip 2098_health.zip
 sudo cp -r 2098_health/* /var/www/html/
 echo
